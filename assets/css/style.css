@@ -32,3 +32,8 @@ main p {
 main p span {
   font-weight: normal;
 }
+#guessedLetters {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: italic;
+}

@@ -22,18 +22,26 @@ main {
   letter-spacing: 0.02rem;
   border: 10px ridge rgb(182, 137, 52);
 }
+
 main h2 {
   white-space: nowrap;
   margin-bottom: 0.5rem;
 }
+
 main p {
   font-weight: bold;
 }
+
 main p span {
   font-weight: normal;
 }
+
 #guessedLetters {
   display: block;
   margin-top: 0.5rem;
   font-style: italic;
+}
+
+#word p::first-letter {
+  text-transform: capitalize;
 }

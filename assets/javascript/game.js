@@ -11,7 +11,7 @@ let students = [
   'soltan',
   'zeynal',
 ]
-
+// selected items
 let word = document.querySelector('#word p')
 let guess = document.getElementById('guesses')
 let loss = document.getElementById('losses')
